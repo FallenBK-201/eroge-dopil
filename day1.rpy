@@ -251,7 +251,7 @@ label day1:
     "На её ярко-красной майке резко выделялась надпись жёлтыми буквами «СССР»."
     th "У одной из них наверняка можно спросить, где находится Ольга Дмитриевна."
     show un surprise pioneer far at left   with dspr
-    show us surp3 sport far at right  with dspr
+    show us surp3 sport far at right  with dspr:
         linear 1.0 xalign 0.28
     "Тем временем девчонка в красной майке подскочила к грустной девочке и, энергично жестикулируя, начала что-то бойко той рассказывать."
     show un shy pioneer far at left   with dspr
@@ -269,7 +269,7 @@ label day1:
 
     $ persistent.sprite_time = 'day'
     scene bg ext_clubs_day 
-    show us grin sport at left  with dspr
+    show us grin sport at left  with dspr:
         linear 2.0 xalign 2.0
     with dissolve
 
@@ -539,7 +539,7 @@ label day1:
     mt "Ладненько, я побежала, а ты пока можешь осмотреть лагерь!{w} Вечером приходи на ужин, не забудь!"
     hide mt  with dissolve
     "С этими словами она покинула домик."
-    show sl smile pioneer at right  with dspr
+    show sl smile pioneer at right  with dspr:
         linear 1.0 xalign 0.5
     "Я остался наедине со Славей."
     sl "Мне тоже пора – дела."

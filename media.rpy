@@ -540,7 +540,7 @@ init python:
             set_name('message',u"Сообщение")
             set_name('dreamgirl',u"...")
             set_name('voice',u"Голос")
-            set_name('me',u"Семен")
+            set_name('me',u"Семён")
             set_name('dy',u"Голос из динамика")
             set_name('lk',u"Луркмор-кун")
             set_name('pi',u"Пионер")

@@ -1062,7 +1062,7 @@ label day1_camp_walk:
 
             hide dv  with dissolve
 
-label d1_free_time
+label d1_free_time:
 
     "..." #TODO Нейтральный ивент. Возможно, свободное перемещение по карте.
     window hide
@@ -1104,7 +1104,7 @@ label d1_free_time
     us "Эй, ты!"
     jump d1_us_dialogue_part2
     
-label d1_us_dialogue_part2
+label d1_us_dialogue_part2:
 
     us "Играть будешь?"
     "Я не знал, что ответить."
@@ -1514,7 +1514,7 @@ label d1_us_dialogue_part2
     th "Сегодняшний день не был шибко плохим. На самом деле, всё происходящее вокруг меня...{w} радовало?"
     jump d1_sl_dialogue_part2
 
-label d1_sl_dialogue_part2    
+label d1_sl_dialogue_part2:   
     sl "Ничего, скоро привыкнешь!"
 
     show cg d1_sl_dinner  with dspr
